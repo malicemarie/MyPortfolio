@@ -1,0 +1,120 @@
+nav {
+  background-color: #263238;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #cccccc;
+}
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-right: 1px solid #cccccc;
+}
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+}
+
+body {
+  background-image: url("..//Assets/hotel-wallpaper.png");
+  background-color: #cccccc;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.headshot {
+  padding: 10px 10px 20px 10px;
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 14px;
+  line-height: 2px;
+}
+
+.header {
+  font-size: 26px;
+  color: #666666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  height: 250px;
+  flex-basis: 50px;
+  padding-top: 20px;
+}
+
+.main-area {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  margin: 50px auto;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 30px 30px;
+  margin: 50px 8% 20px 8%;
+}
+.contact-form {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  margin: 50px auto;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 30px 30px;
+  margin: 50px 8% 20px 8%;
+}
+
+.portfolio {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  margin: 50px auto;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 30px 30px;
+  margin: 50px 8% 20px 8%;
+}
+
+.img-fluid {
+  width: auto;
+  margin: 20px;
+  border: solid lightgrey 0.5px;
+  padding: 10px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #cccccc;
+  background-color: #263238;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  margin: 0px;
+}
+
+.displaythumb {
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 250px;
+  justify-content: center;
+}
+
+.row {
+  text-align: center;
+}

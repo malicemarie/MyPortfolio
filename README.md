@@ -1,6 +1,6 @@
 # My Portfolio
 
-[Marie Lenac - Personal Protfolio](https://malicemarie.github.io/MyPortfolio/)
+[Marie Lenac - Personal Portfolio](https://malicemarie.github.io/MyPortfolio/)
 
 ## Marie Lenac
 

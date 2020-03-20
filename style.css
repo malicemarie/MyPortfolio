@@ -1,8 +1,9 @@
 nav {
-  background-color: #263238;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   border: 1px solid #cccccc;
+  opacity: 75%;
 }
 .navbar-brand {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -11,16 +12,31 @@ nav {
   color: white;
   border-right: 1px solid #cccccc;
 }
+
+.navbar-toggler-icon {
+  opacity: 100%;
+}
+
 .paragraph {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
   color: #777777;
+  line-height: 1.5;
 }
 
 body {
-  background-image: url("..//Assets/hotel-wallpaper.png");
-  background-color: #cccccc;
-  height: 100%;
+  background-image: url("Assets/20150906_152106.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin-bottom: 0;
+  height: auto;
+}
+
+@media only screen and (max-width: 1020px) {
+  body {
+    background-image: url("Assets/20150906_152106.jpg");
+    background-size: 200%;
+  }
 }
 
 .headshot {
@@ -31,12 +47,22 @@ body {
 .nav-item {
   font-size: 14px;
   line-height: 2px;
+  color: darkcyan;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #666666;
 }
 
 .header {
   font-size: 26px;
   color: #666666;
   font-family: Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 20px;
 }
 
 img {
@@ -53,15 +79,7 @@ img {
   line-height: 15px;
   padding: 30px 30px;
   margin: 50px 8% 20px 8%;
-}
-.contact-form {
-  border: 1px solid #dddddd;
-  background-color: #ffffff;
-  margin: 50px auto;
-  font-size: 14px;
-  line-height: 15px;
-  padding: 30px 30px;
-  margin: 50px 8% 20px 8%;
+  opacity: 85%;
 }
 
 .portfolio {
@@ -72,6 +90,7 @@ img {
   line-height: 15px;
   padding: 30px 30px;
   margin: 50px 8% 20px 8%;
+  opacity: 85%;
 }
 
 .img-fluid {
@@ -85,15 +104,18 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   color: #cccccc;
-  background-color: #263238;
+  background-color: black;
   position: relative;
   bottom: 0;
   width: 100%;
+  opacity: 55%;
+  padding: 40px, 0px, 10px;
 }
 
 .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 h3 {
@@ -116,5 +138,19 @@ p {
 }
 
 .row {
-  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #666666;
+}
+
+a:hover {
+  color: black;
+}
+
+.contact-icons {
+  text-align: right;
+  justify-content: center;
+  padding: 10px;
 }

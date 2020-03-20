@@ -14,11 +14,15 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Assets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6a8e4b5210.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
       <span class="navbar-brand mb-1 h1">Marie Lenac</span>
       <button
         class="navbar-toggler"
@@ -34,25 +38,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item">
-            <a
-              class="nav-link"
-              href="index.html"
-              >About</a
-            >
+            <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link"
-              href="contact.html"
-              >Contact</a
-            >
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link"
-              href="portfolio.html"
-              >Portfolio</a
-            >
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
         </ul>
       </div>
@@ -60,51 +52,73 @@
 
     <div class="portfolio">
       <div class="row">
-        <div class="linkedin col-lg-4 col-sm-12">
+        <div class="adventure col-lg-4 col-sm-12">
           <div class="title">
-            <h3>LinkedIn</h3>
-            <p>Add me on LinkedIn!</p>
-          </div>
-          <div class="displaythumb">          
-              <a href="https://www.linkedin.com/in/marielenac/" target="_blank"rel=“noopener noreferrer”>
-            <img
-              src="Assets/myLinkedin.png"
-              alt="My-linkedin"
-              class="img-fluid"
-            />
-          </a>
-        </div> </div>
- 
-          <div class="project1 col-lg-4 col-sm-12">
-            <div class="title">
-              <h3>Find Your Adventure</h3>
-              <p>This is the first group project I completed in my UW Coding Bootcamp.</p>
+            <i class="fas fa-plane fa-3x"></i>
+            <div class="portlink">
+              <a
+                href="https://kaitlyncarlson.github.io/Travel-Application/"
+                target="_blank"
+                rel="“noopener"
+                noreferrer”
+              >
+                <h3>Find Your Adventure</h3>
+              </a>
             </div>
-            <div class="displaythumb"> 
-            <a href="https://kaitlyncarlson.github.io/Project-One/"target="_blank"rel=“noopener noreferrer”>
-              <img
-                src="Assets/Findyouradventure.png"
-                alt="myProject1"
-                class="img-fluid"
-              />
-            </a>
-            </div>
-          </div>
 
-          <div class="project1 col-lg-4 col-sm-12">
-            <div class="title">
-              <h3>Resume</h3>
-              <p>Click here to view my updated resume deployed via GitHub.</p>
+            <p>
+              My first group project that I completed in bootcamp. Entirely
+              front end based using API calls, jQuery and js to dynamically
+              create HTML and get/post information.
+            </p>
+          </div>
+        </div>
+        <div class="planner col-lg-4 col-sm-12">
+          <div class="title">
+            <i class="fas fa-calendar-week fa-3x"></i>
+            <div class="portlink">
+              <a
+                href="https://malicemarie.github.io/Week5-HW-DayPlanner/"
+                target="_blank"
+                rel="“noopener"
+                noreferrer”
+              >
+                <h3>Day Planner</h3>
+              </a>
             </div>
-            <div class="displaythumb"> 
-            <a href="https://malicemarie.github.io/Resume/"target="_blank"rel=“noopener noreferrer”>
-              <img
-                src="Assets/ResumeThumb.png"
-                alt="myProject1"
-                class="img-fluid"
-              />
-            </a>
+
+            <p>
+              This is an individual project I created from scratch as a bootcamp
+              assignment. I used moment to control the date & styling of the day
+              planner and local storage to hold event info for the user even
+              after a page reload. I completed this assignment on week 5 of 24
+              in my full stack bootcamp.
+            </p>
+          </div>
+        </div>
+        <div class="emptracker col-lg-4 col-sm-12">
+          <div class="title">
+            <i class="fas fa-users fa-3x"></i>
+            <div class="portlink">
+              <a
+                href="https://github.com/malicemarie/EmployeeTracker"
+                target="_blank"
+                rel="“noopener"
+                noreferrer”
+              >
+                <h3>Employee Tracker</h3>
+              </a>
             </div>
+
+            <p>
+              This is a command line application using node-express modules to
+              create a database of employees for internal use. This application
+              can be used by engineers, recruiters and managers to organize
+              employees within their departments and view information about
+              managers, employees or some combination of both. This is a public
+              repo and you can begin by following the instructions in the
+              ReadMe.
+            </p>
           </div>
         </div>
       </div>

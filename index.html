@@ -8,17 +8,26 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Marie Lenac</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Assets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6a8e4b5210.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/javascript" src="index.js"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
       <span class="navbar-brand mb-1 h1">Marie Lenac</span>
       <button
         class="navbar-toggler"
@@ -33,15 +42,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
+          <!-- <button class="nav-item">
+            <a class="nav-link btn btn-link" id="about-scroll">About</a>
+          </button>
+          <button class="nav-item">
+            <a class="nav-link btn btn-link" id="contact-scroll">Contact</a>
+          </button>
+          <button class="nav-item" id="portfolio-scroll">
+            <a class="nav-link btn btn-link">Portfolio</a>
+          </button> -->
         </ul>
       </div>
     </nav>
@@ -77,6 +86,168 @@
               cat lover. Life takes you anywhere you let it, so enjoy the ride!
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="main-area">
+        <div class="header">
+          <div class="col-md-12">
+            Contact Me
+          </div>
+        </div>
+        <div class="row">
+          <div class="linkedin col-lg-12 col-sm12 text-left">
+            <i class="fab fa-linkedin fa-3x"></i>
+            <a href="www.linkedin.com/in/marielenac"> Add me on LinkedIn</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="email col-lg-12 col-sm12 text-left">
+            <i class="fas fa-envelope-open-text fa-3x"></i>
+
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lenacm02@gmail.com"
+              target="_blank"
+              >Email Me</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="github col-lg-12 col-sm12 text-left">
+            <i class="fab fa-github-square fa-3x"></i>
+            <a href="www.github.com/malicemarie"> Follow me on Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container portfolio-div">
+      <div class="main-area">
+        <div class="header">
+          <div class="col-md-12">
+            Portfolio
+          </div>
+        </div>
+        <div class="row">
+          <div class="adventure col-lg-6 col-sm-12">
+            <div class="title">
+              <i class="fas fa-plane fa-3x"></i>
+              <div class="portlink">
+                <a
+                  href="https://kaitlyncarlson.github.io/Travel-Application/"
+                  target="_blank"
+                  rel="“noopener"
+                  noreferrer”
+                >
+                  <h3>Find Your Adventure</h3>
+                </a>
+              </div>
+
+              <p>
+                My first group project that I completed in bootcamp. Entirely
+                front end based using API calls, jQuery and js to dynamically
+                create HTML and get/post information.
+              </p>
+            </div>
+          </div>
+          <div class="recipebox col-lg-6 col-sm-12">
+            <div class="title">
+              <i class="fas fa-box-open fa-3x"></i>
+              <div class="portlink">
+                <a
+                  href="https://floating-garden-43983.herokuapp.com/"
+                  target="_blank"
+                  rel="“noopener"
+                  noreferrer”
+                >
+                  <h3>Recipe Box</h3>
+                </a>
+              </div>
+
+              <p>
+                This is the second group project I completed in Bootcamp. It was
+                a real challenge for my group but we persevered and were able to
+                deploy a working application. Check back on this project for
+                updates!
+              </p>
+            </div>
+          </div>
+          <div class="planner col-lg-6 col-sm-12">
+            <div class="title">
+              <i class="fas fa-calendar-week fa-3x"></i>
+              <div class="portlink">
+                <a
+                  href="https://malicemarie.github.io/Week5-HW-DayPlanner/"
+                  target="_blank"
+                  rel="“noopener"
+                  noreferrer”
+                >
+                  <h3>Day Planner</h3>
+                </a>
+              </div>
+
+              <p>
+                This is an individual project I created from scratch as a
+                bootcamp assignment. I used moment to control the date & styling
+                of the day planner and local storage to hold event info for the
+                user even after a page reload. I completed this assignment on
+                week 5 of 24 in my full stack bootcamp.
+              </p>
+            </div>
+          </div>
+          <div class="emptracker col-lg-6 col-sm-12">
+            <div class="title">
+              <i class="fas fa-users fa-3x"></i>
+              <div class="portlink">
+                <a
+                  href="https://github.com/malicemarie/EmployeeTracker"
+                  target="_blank"
+                  rel="“noopener"
+                  noreferrer”
+                >
+                  <h3>Employee Tracker</h3>
+                </a>
+              </div>
+
+              <p>
+                This is a command line application using node-express modules to
+                create a database of employees for internal use. This
+                application can be used by engineers, recruiters and managers to
+                organize employees within their departments and view information
+                about managers, employees or some combination of both. This is a
+                public repo and you can begin by following the instructions in
+                the ReadMe.
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="emptracker col-lg-4 col-sm-12">
+            <div class="title">
+              <i class="fas fa-users fa-3x"></i>
+              <div class="portlink">
+                <a
+                  href="https://github.com/malicemarie/EmployeeTracker"
+                  target="_blank"
+                  rel="“noopener"
+                  noreferrer”
+                >
+                  <h3>Employee Tracker</h3>
+                </a>
+              </div>
+
+              <p>
+                This is a command line application using node-express modules to
+                create a database of employees for internal use. This
+                application can be used by engineers, recruiters and managers to
+                organize employees within their departments and view information
+                about managers, employees or some combination of both. This is a
+                public repo and you can begin by following the instructions in
+                the ReadMe.
+              </p>
+            </div>
+          </div> -->
         </div>
       </div>
     </div>

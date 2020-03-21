@@ -2,13 +2,14 @@ nav {
   background-color: black;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
   opacity: 75%;
 }
 .navbar-brand {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: signpainter;
+  font-size: 28px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 40px;
   color: white;
   border-right: 1px solid #cccccc;
 }
@@ -19,7 +20,7 @@ nav {
 
 .paragraph {
   font-family: Montserrat;
-  color: #777777;
+  color: white;
   line-height: 1.5;
 }
 
@@ -47,7 +48,6 @@ body {
 .nav-item {
   font-size: 14px;
   line-height: 2px;
-  color: darkcyan;
 }
 
 .nav-link {
@@ -60,7 +60,7 @@ body {
 
 .header {
   font-size: 26px;
-  color: #666666;
+  color: #8c98a9;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding-bottom: 20px;
 }
@@ -72,17 +72,22 @@ img {
 }
 
 .main-area {
-  border: 1px solid #dddddd;
-  background-color: #ffffff;
+  /* border: 1px solid #dddddd; */
+  /* background-color: rgba(120, 132, 153, 0.85); */
+  background-color: rgba(41, 46, 39, 0.9);
   margin: 50px auto;
   font-size: 14px;
   line-height: 15px;
   padding: 30px 30px;
   margin: 50px 8% 20px 8%;
-  opacity: 85%;
+  border-radius: 25px;
 }
 
-.portfolio {
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+}
+/* .portfolio {
   border: 1px solid #dddddd;
   background-color: #ffffff;
   margin: 50px auto;
@@ -91,7 +96,7 @@ img {
   padding: 30px 30px;
   margin: 50px 8% 20px 8%;
   opacity: 85%;
-}
+} */
 
 .img-fluid {
   width: auto;
@@ -125,6 +130,9 @@ h3 {
 p {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  font-size: 14px;
+  color: #d6d6d8;
+  text-indent: 50px;
 }
 
 .displaythumb {
@@ -141,7 +149,12 @@ p {
 }
 
 a {
-  color: #666666;
+  color: #d6d6d8;
+}
+
+.contact-a {
+  font-family: signpainter;
+  font-size: 18px;
 }
 
 a:hover {
@@ -149,12 +162,9 @@ a:hover {
 }
 
 .contact-icons {
-  display: flex;
-  justify-content: space-around;
-}
-
-.contact-icons {
-  text-align: right;
-  justify-content: center;
   padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }

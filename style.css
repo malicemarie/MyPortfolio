@@ -66,9 +66,14 @@ body {
 }
 
 img {
-  height: 200px;
+  height: 220px;
   /* flex-basis: 50px;*/
   padding-right: 20px;
+}
+
+.section-head {
+  font-family: Signpainter;
+  font-size: 22px;
 }
 
 .main-area {
@@ -80,7 +85,7 @@ img {
   line-height: 15px;
   padding: 30px 30px;
   margin: 50px 8% 20px 8%;
-  border-radius: 25px;
+  border-radius: 7px;
 }
 
 .contact-icons {
@@ -153,7 +158,7 @@ a {
 }
 
 .contact-a {
-  font-family: signpainter;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 

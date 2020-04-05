@@ -36,7 +36,7 @@ body {
 @media only screen and (max-width: 1020px) {
   body {
     background-image: url("Assets/20150906_152106.jpg");
-    background-size: 200%;
+    background-size: 400%;
   }
 }
 
